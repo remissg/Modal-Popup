@@ -91,9 +91,11 @@ body.dark .container {
 body.dark .open-modal-btn {
     box-shadow: 0 4px 20px rgba(37, 117, 252, 0.3);
 }
+
 body.dark .open-modal-btn:hover {
     box-shadow: 0 7px 25px rgba(37, 117, 252, 0.4);
 }
+
 /* Theme Toggle Button */
 .theme-btn {
     position: fixed;
@@ -168,6 +170,11 @@ body.dark .modal {
     cursor: pointer;
 }
 
+/* Modal Paragraph */
+.modal p {
+    line-height: 1.6;
+}
+
 /* Inputs */
 input {
     width: 100%;
@@ -199,4 +206,48 @@ input {
 
 .submit-btn:hover {
     background: #6a11cb;
+}
+
+/* --- Media Queries for Responsiveness --- */
+
+@media (max-width: 650px) {
+    .container {
+        padding: 30px 20px;
+        width: 90%;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .modal {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .modal-header h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container h1 {
+        font-size: 1.8rem;
+    }
+
+    .open-modal-btn {
+        width: 100%;
+        /* Make buttons full-width for a better mobile UX */
+        margin: 8px 0;
+        /* Adjust margin for stacked layout */
+    }
+
+    .modal-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .modal p {
+        font-size: 0.95rem;
+    }
 }
