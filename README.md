@@ -3,7 +3,14 @@
 A stylish and modern modal/popup system built with pure HTML, CSS, and JavaScript. This project demonstrates how to create multiple, versatile modals with a sleek user interface, including a beautiful dark mode, smooth animations, and a blurred overlay effect.
 
  
-*(You can replace this with a screenshot or GIF of your project in action!)*
+
+### Light Theme
+<img width="2880" height="1800" alt="Screenshot 2025-12-14 090122" src="https://github.com/user-attachments/assets/09e05f4a-b0e1-4b25-97b7-9ac6d90dabb6" />
+
+
+### Dark Theme
+   <img width="2880" height="1800" alt="Screenshot 2025-12-14 090130" src="https://github.com/user-attachments/assets/70eaabc9-b20b-4e65-a979-54409d0fb76b" />
+ 
 
 ---
 
@@ -21,7 +28,7 @@ A stylish and modern modal/popup system built with pure HTML, CSS, and JavaScrip
 
 ## 🚀 Live Demo
 
-Check out the live demo here: **[Link to your live demo]**
+Check out the live demo here: **[https://remissg.github.io/Modal-Popup/](https://remissg.github.io/Modal-Popup/)**
 
 *(You can host this project for free on services like GitHub Pages, Netlify, or Vercel)*
 
@@ -39,7 +46,7 @@ Check out the live demo here: **[Link to your live demo]**
 
 1.  **Clone or download the repository:**
     ```bash
-    git clone https://github.com/remissg/Modal-Popup
+    git clone https://github.com/remissg/Modal-Popup.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
